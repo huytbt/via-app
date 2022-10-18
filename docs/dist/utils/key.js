@@ -1159,7 +1159,8 @@ export function getKeycodes() {
         {name: "Music On", code: "MU_ON"},
         {name: "Music Off", code: "MU_OFF"},
         {name: "Music Toggle", code: "MU_TOG"},
-        {name: "Music Mode", code: "MU_MOD"}
+        {name: "Music Mode", code: "MU_MOD"},
+        {name: "Apple FN", code: "KC_APPLE_FN"}
       ]
     },
     {

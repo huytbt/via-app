@@ -1257,6 +1257,7 @@ export function getKeycodes(): IKeycodeMenu[] {
         {name: 'Music Off', code: 'MU_OFF'},
         {name: 'Music Toggle', code: 'MU_TOG'},
         {name: 'Music Mode', code: 'MU_MOD'},
+        {name: 'Apple FN', code: 'KC_APPLE_FN'},
       ],
     },
     /* These are for controlling the original backlighting and bottom RGB. */
