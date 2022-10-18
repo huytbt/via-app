@@ -28,11 +28,11 @@ initDeviceStore();
 export async function syncStore() {
   const currentDefinitionIndex = deviceStore.get("definitionIndex");
   try {
-    const hash = await (await fetch("/definitions/hash.json")).json();
+    const hash = await (await fetch("./definitions/hash.json")).json();
     if (hash === currentDefinitionIndex.hash) {
       return currentDefinitionIndex;
     }
-    const response = await fetch("/definitions/supported_kbs.json", {
+    const response = await fetch("./definitions/supported_kbs.json", {
       cache: "reload"
     });
     const json = await response.json();
