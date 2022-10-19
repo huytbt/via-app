@@ -1,5 +1,5 @@
 .DS_STORE
 .snowpack
-build
+build/_snowpack
 node_modules
 public/definitions
